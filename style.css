@@ -430,3 +430,21 @@ footer {
 footer p {
   text-align: center;
 }
+.badges-container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.badges {
+  display: inline-block;
+  animation: scrollBadges 15s linear infinite;
+}
+
+@keyframes scrollBadges {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

@@ -438,11 +438,11 @@ footer p {
 
 .badges {
   display: flex;
-  animation: scrollBadges 30s linear infinite; /* Increase duration for slower movement */
+  animation: scrollBadges 15s linear infinite; /* Increase duration for slower movement */
 }
 
 .badge {
-  width: 39rem; /* Adjust the width of the badge images */
+  width: 20rem; /* Adjust the width of the badge images */
   height: auto; /* Maintain aspect ratio */
   margin-right: 2rem; /* Adjust the spacing between badges */
 }

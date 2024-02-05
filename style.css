@@ -432,12 +432,15 @@ footer p {
 }
 .badges-container {
   overflow: hidden;
-  white-space: nowrap;
 }
 
 .badges {
-  display: inline-block;
+  display: flex;
   animation: scrollBadges 15s linear infinite;
+}
+
+.badge {
+  margin-right: 20px; /* Adjust the spacing between badges */
 }
 
 @keyframes scrollBadges {

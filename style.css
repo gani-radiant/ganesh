@@ -442,7 +442,7 @@ footer p {
 }
 
 .badge {
-  width: 8rem; /* Adjust the width of the badge images */
+  width: 39rem; /* Adjust the width of the badge images */
   height: auto; /* Maintain aspect ratio */
   margin-right: 2rem; /* Adjust the spacing between badges */
 }

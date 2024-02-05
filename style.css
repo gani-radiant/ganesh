@@ -430,6 +430,8 @@ footer {
 footer p {
   text-align: center;
 }
+/* BADGES SCROLLING EFFECT */
+
 .badges-container {
   overflow: hidden;
 }
@@ -440,9 +442,9 @@ footer p {
 }
 
 .badge {
-  width: 80px; /* Adjust the width of the badge images */
+  width: 8rem; /* Adjust the width of the badge images */
   height: auto; /* Maintain aspect ratio */
-  margin-right: 20px; /* Adjust the spacing between badges */
+  margin-right: 2rem; /* Adjust the spacing between badges */
 }
 
 @keyframes scrollBadges {
